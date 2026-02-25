@@ -1,0 +1,49 @@
+/* i want to reset my page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* i want to style my body */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* i want to style my div */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(197, 111, 7);
+}
+
+/* i want to style my h1 */
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#welcomeBtn {
+    padding: 14px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+#welcomeBtn:hover {
+    background-color: blueviolet;
+}
